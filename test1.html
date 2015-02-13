@@ -284,7 +284,7 @@
 			    var state = vrHMDSensor.getState();
 			    camera.quaternion.set(state.orientation.x, state.orientation.y, state.orientation.z, state.orientation.w);
 			    
-			    /* в общем с позицией пока непонятно.. как то странно x и y ее ходят, надо разбираться
+			    /* РІ РѕР±С‰РµРј СЃ РїРѕР·РёС†РёРµР№ РїРѕРєР° РЅРµРїРѕРЅСЏС‚РЅРѕ.. РєР°Рє С‚Рѕ СЃС‚СЂР°РЅРЅРѕ x Рё y РµРµ С…РѕРґСЏС‚, РЅР°РґРѕ СЂР°Р·Р±РёСЂР°С‚СЊСЃСЏ
 			    if ( state.position !== null ) {
 			        if (cc++ % 100 == 0)
 			          console.log("pos=",state.position.x); 

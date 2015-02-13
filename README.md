@@ -1,6 +1,8 @@
 # test-threejs-oculus2
 Тест подключения OculusRift 2 к ThreeJS через WebVR
 
+Собственно код в test1.html
+
 Работает в специальной версии Chrome для WebVR, которая скачивается здесь:
 https://drive.google.com/folderview?id=0BzudLt22BqGRbW9WTHMtOWMzNjQ
 
@@ -14,7 +16,7 @@ https://github.com/MozVR/vr-web-examples/blob/master/threejs-vr-boilerplate/js/V
 var useVrRendering = true;
 Если выставить ее в false, то будет обычный рендеринг.
 
-Павел Васев 13-02-2015
+П. Васев 13-02-2015
 
 
 
